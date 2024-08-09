@@ -32,7 +32,7 @@ global:
 scrape_configs:
   - job_name: "custom_metrics"
     static_configs:
-      - targets: ["your-sever-url/metrics"]
+      - targets: ["your-server-url/metrics"]
 ```
 
 ### 3. Build and run docker to image to start prometheus server
