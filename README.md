@@ -1,8 +1,8 @@
-# APPCRONS MONITORING USING PROMETHEUS
+# TULIME MONITORING USING PROMETHEUS
 
 ## Overview
 
-This guide provides instructions on setting up Prometheus in a Docker container to scrape metrics from Appcrons backend via url that maybe local or hosted
+This guide provides instructions on setting up Prometheus in a Docker container to scrape metrics from tulime backend via url that maybe local or hosted
 
 ## Prerequisites
 
@@ -15,8 +15,8 @@ This guide provides instructions on setting up Prometheus in a Docker container 
 
 ```sh
 
-git https://github.com/Tibz-Dankan/appcrons-prometheus.git
-cd appcrons-prometheus
+git clone https://github.com/tulimeorg/tulime-prometheus.git
+cd tulime-prometheus
 
 ```
 
