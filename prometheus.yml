@@ -8,4 +8,8 @@ scrape_configs:
     static_configs:
       - targets: ["api.tuliime.com"]
 
-  # To add my traefik scraping
+  - job_name: "tuliime_traefik_metrics"
+    scrape_interval: 15s
+
+    static_configs:
+      - targets: ["traefik.tuliime.com"]
