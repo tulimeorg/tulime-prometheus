@@ -25,7 +25,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ${{ secrets.DOCKERHUB_USERNAME }}/hrm-prometheus
+          images: ${{ secrets.DOCKERHUB_USERNAME }}/tulime-prometheus
           tags: |
             type=raw,value=latest
             type=sha,format=short
