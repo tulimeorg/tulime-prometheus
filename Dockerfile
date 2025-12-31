@@ -1,8 +1,8 @@
-FROM prom/prometheus:v2.54.0
+FROM prom/prometheus:v3.8.1
 
 COPY prometheus.yml /etc/prometheus/prometheus.yml
 
-# ARG TARGET_URL=https://pi.tuliime.com/metrics
+# ARG TARGET_URL=https://api.tuliime.com/metrics
 ARG TARGET_URL=http://127.0.0.1:8000/metrics
 
 EXPOSE 9090
