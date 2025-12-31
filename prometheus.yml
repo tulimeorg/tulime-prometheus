@@ -6,10 +6,10 @@ scrape_configs:
     scrape_interval: 10s
 
     static_configs:
-      - targets: ["api.tuliime.com"]
+      - targets: ["tulime-backend:5000"]
 
   - job_name: "tuliime_traefik_metrics"
     scrape_interval: 15s
 
     static_configs:
-      - targets: ["traefik.tuliime.com"]
+      - targets: ["traefik:8080"]
